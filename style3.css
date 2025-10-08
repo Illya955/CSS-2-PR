@@ -1,0 +1,25 @@
+.share-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 2000;
+}
+
+.share-button button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.site-footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+}
