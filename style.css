@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background: #222;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  z-index: 1000;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.main-nav a {
+  margin-left: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.banner {
+  position: relative;
+  height: 300px;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('https://pin.it/4n8SjYZu2') center/cover no-repeat;
+  filter: brightness(0.5);
+  z-index: -1;
+}
+
+.banner-content {
+  position: relative;
+  z-index: 1;
+}
